@@ -3,9 +3,9 @@ import serena from "@/../public/serenablake-cropped.jpg"
 
 const About = () => {
     return (
-        <section id="about" className="bg-light h-full w-full pt-48 pb-40 font-freight-display-pro">
-            <div className="flex flex-row items-start pl-[15vw] pr-[12vw] gap-32">
-                <div className="flex flex-col gap-8 text-muted h-full">
+        <section id="about" className="bg-light h-full w-full pt-[184px] pb-40 font-freight-display-pro">
+            <div className="flex flex-row items-start pl-[15.5vw] pr-[12vw] gap-36">
+                <div className="flex flex-col gap-10 text-muted h-full">
                     <h2 className="text-4xl font-freight-display-pro-bold">
                         About Dr. Serena Blake
                     </h2>
@@ -20,10 +20,11 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="h-full">
+                <div className="">
                     <Image
                         src={serena}
                         alt={"Serena Blake"}
+                        className="w-full h-full object-cover"
                     />
                 </div>
             </div>
