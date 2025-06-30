@@ -1,4 +1,3 @@
-import Image from "next/image";
 import therapy1 from "@/../public/therapy1.jpg"
 import therapy2 from "@/../public/therapy2.jpg"
 import therapy3 from "@/../public/therapy3.jpg"

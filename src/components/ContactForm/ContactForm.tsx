@@ -107,7 +107,7 @@ const ContactForm = () => {
         >
             <h3 className="text-xl font-semibold text-center font-freight-display-pro">Send a Message</h3>
             <p className="text-sm text-muted text-center">
-                We're here to help—share your thoughts, and Dr. Blake will be in touch very soon.
+                We&apos;re here to help—share your thoughts, and Dr. Blake will be in touch very soon.
             </p>
             <div>
                 <label className="block mb-1 font-semibold " htmlFor="name">Name *</label>
