@@ -1,6 +1,6 @@
 const Philosophy = () => {
     return (
-        <section id="philosophy" className="py-10 flex flex-col items-center w-[60vw] text-dark text-center">
+        <section id="philosophy" className="pt-12 pb-6 flex flex-col items-center w-[60vw] text-dark text-center">
             <h2 className="font-freight-display-pro-light text-[clamp(0px,3.7vw,48px)] mb-4 leading-tight">
                 Taking time to heal is not a luxury—it&apos;s a courageous act of self-respect and growth.
             </h2>
