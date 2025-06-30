@@ -11,11 +11,11 @@ const About = () => {
                     </h2>
                     <div className="flex flex-col gap-4">
                         <p className="leading-loose text-lg font-freight-sans-pro">
-                            Finding time and opportunities to care for ourselves can be incredibly challenging in today&apos;s busy and demanding world. I believe therapy offers a dedicated space for self-care, providing the support and tools needed to improve this essential practice. Therapy can help individuals identify and clarify their goals, values, and the various elements that contribute to their well-being, recognizing that these aspects vary from person to person. </p>
+                            In today’s whirlwind of commitments, it’s easy to let self-care slip to the bottom of the list. Therapy can be the steady anchor you need—a confidential space to slow down, reflect, and develop practices that sustain your mental and emotional health. Together, we’ll pinpoint what matters most to you, draw on your inner resources, and tailor a plan that feels authentic and achievable.</p>
                         <p className="leading-loose text-lg font-freight-sans-pro">
-                            I am dedicated to supporting this journey by offering active listening, psychological knowledge, empathy, compassion, and insights into behavioral patterns and tendencies. I hold a master’s degree in Clinical Psychology from the Michigan School of Psychology (2012) and a Ph.D. in Counseling Psychology from Western Michigan University (2018). My experience spans therapy and psychological assessment in psychiatric inpatient units, academic medical centers, universities, and outpatient practice settings. </p>
+                            I’m Dr. Serena Blake, PsyD, a licensed clinical psychologist practicing in Los Angeles. Since earning my Doctor of Psychology (Clinical Psychology) from Alliant International University in 2017, I’ve guided more than 500 individuals through eight years of counseling in community clinics, university settings, and both in-person and virtual private practice. Whether you join me at 1287 Maplewood Drive or connect via Zoom, you’ll experience a warm, collaborative environment built on respect and trust.</p>
                         <p className="leading-loose text-lg font-freight-sans-pro">
-                            My therapeutic approach is primarily psychodynamic and humanistic, enriched by influences from positive psychology, existentialism, family systems theory, acceptance and commitment concepts, and mindfulness practices.
+                            My approach blends cognitive-behavioral techniques, mindfulness, trauma-informed care, positive psychology, acceptance and commitment strategies to provide insight, empathy, and practical tools for anxiety, relationships, and healing.
                         </p>
                     </div>
                 </div>
