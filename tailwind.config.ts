@@ -21,7 +21,7 @@ const config: Config = {
                 primary: "#94b0b0",
                 muted: "#7e7e6b",
                 dark: "#41413f",
-                bg: "#f9f9f6",
+                bg: "#f3f0e8",
                 light: "#fefefe",
                 black: "#000000",
             },
