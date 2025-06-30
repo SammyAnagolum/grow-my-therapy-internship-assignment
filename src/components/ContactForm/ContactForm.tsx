@@ -101,7 +101,7 @@ const ContactForm = () => {
 
     return (
         <form
-            className="w-full max-w-lg min-w-fit bg-bg p-8 rounded-lg shadow flex flex-col gap-4 font-freight-sans-pro"
+            className="w-full max-w-lg min-w-fit bg-light bg-opacity-30 p-8 rounded-lg shadow flex flex-col gap-4 font-freight-sans-pro"
             onSubmit={handleSubmit}
             noValidate
         >
@@ -116,6 +116,7 @@ const ContactForm = () => {
                     type="text"
                     id="name"
                     name="name"
+                    placeholder="Name"
                     value={form.name}
                     onChange={handleChange}
                     onBlur={handleBlur}
@@ -136,6 +137,7 @@ const ContactForm = () => {
                     type="tel"
                     id="phone"
                     name="phone"
+                    placeholder="(123) 456-7890"
                     pattern="^\d{10,15}$"
                     title="Enter 10 to 15 digits, numbers only"
                     value={form.phone}
@@ -158,6 +160,7 @@ const ContactForm = () => {
                     type="email"
                     id="email"
                     name="email"
+                    placeholder="email@example.com"
                     value={form.email}
                     onChange={handleChange}
                     onBlur={handleBlur}
@@ -176,6 +179,7 @@ const ContactForm = () => {
                     className="w-full border border-primary rounded px-3 py-2"
                     id="message"
                     name="message"
+                    placeholder="e.g., I'm feeling overwhelmed and would like support..."
                     rows={4}
                     value={form.message}
                     onChange={handleChange}
@@ -196,6 +200,7 @@ const ContactForm = () => {
                     type="text"
                     id="preferredTime"
                     name="preferredTime"
+                    placeholder="e.g., Mornings, Afternoons, Evenings, Weekends"
                     value={form.preferredTime}
                     onChange={handleChange}
                     onBlur={handleBlur}
