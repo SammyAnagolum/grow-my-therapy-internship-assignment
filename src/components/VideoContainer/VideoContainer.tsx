@@ -10,7 +10,7 @@ const VideoContainer = () => {
                 className="w-full h-full object-cover object-center"
             />
             {/* Overlay */}
-            <div className="absolute inset-0 bg-dark bg-opacity-30 pointer-events-none" />
+            <div className="absolute inset-0 bg-dark bg-opacity-40 pointer-events-none" />
         </div>
     );
 }
