@@ -9,7 +9,7 @@ const FAQAccordion = () => {
         {
             question: "Do you accept insurance?",
             answer:
-                "I am an out-of-network provider, but I provide superbills to help you claim reimbursement from your insurance.",
+                "No, but a superbill is provided for self-submission.",
         },
         {
             question: "Are online sessions available?",
