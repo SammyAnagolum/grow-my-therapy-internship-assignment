@@ -17,9 +17,9 @@ const Hero = () => {
                         Counselling That Cares
                     </strong>
                 </h1>
-                <h4 className="text-2xl text-center max-w-3xl mt-10 mb-2">
+                <h2 className="text-2xl text-center max-w-3xl mt-10 mb-2">
                     Your safe space where we heal, overcome and thrive together.
-                </h4>
+                </h2>
                 <button
                     className="bg-primary hover:bg-[#8EAAAA] shadow-md tracking-widest rounded-full mt-12 hover:bg-opacity-85 transition-colors duration-100 font-freight-sans-pro"
                     style={{
