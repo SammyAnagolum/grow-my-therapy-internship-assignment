@@ -13,7 +13,7 @@ const Contact = () => {
             <p className="font-freight-display-pro-light text-[clamp(0px,2.25vw,30px)] text-muted mb-10">
                 Take the first step toward your healing!
             </p>
-            <div className="flex w-full items-start justify-center gap-12">
+            <div className="flex flex-col md:flex-row w-full items-start justify-center gap-12">
                 <ContactDetails />
                 <ContactForm />
             </div>
