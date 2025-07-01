@@ -4,7 +4,7 @@ import logo from "@/../public/logo-transparent-cropped.png";
 
 const Header = () => {
     return (
-        <header id="header" className="flex w-full items-center justify-between py-[3vw] px-[4%]">
+        <header id="header" className="flex w-full items-center justify-between py-[3vw] max-w-[92vw] px-[4%] box-border">
             <div className="flex items-center">
                 <Link href={"/"}>
                     <Image

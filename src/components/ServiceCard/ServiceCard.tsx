@@ -10,7 +10,7 @@ type ServiceCardProps = {
 
 const ServiceCard = ({ imgSrc, imgAlt, headingText, paraText }: ServiceCardProps) => {
     return (
-        <div className="flex flex-col items-center gap-4 p-[1.68vw]">
+        <div className="flex flex-col items-center gap-4 p-4 sm:p-6 md:p-[1.68vw] w-full md:w-[24.7vw]">
             <div className="relative h-[24.7vw] w-[24.7vw]">
                 <Image
                     src={imgSrc}

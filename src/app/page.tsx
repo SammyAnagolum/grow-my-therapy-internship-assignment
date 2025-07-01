@@ -14,7 +14,7 @@ import Contact from "@/components/Contact/Contact";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center">
+    <div className="flex min-h-screen flex-col items-center w-full justify-center">
       <Header />
 
       <Hero />

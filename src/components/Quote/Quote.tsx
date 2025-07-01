@@ -22,7 +22,7 @@ const Quote = ({ text, author }: QuoteProps) => {
             </div>
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-bg opacity-30" />
+            <div className="absolute inset-0 bg-light opacity-30" />
 
             <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center pb-8">
                 <p className="text-black text-4xl font-freight-display-pro-light mb-8 text-center max-w-5xl leading-snug">
