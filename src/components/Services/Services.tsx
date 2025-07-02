@@ -45,6 +45,7 @@ const Services = () => {
                     </li>
                     <li className="flex items-center">
                         <FadeInSection delay={400}>
+                            {/* Original source: https://www.freepik.com/free-photo/stressed-teenager-sitting-sofa_19085993.htm */}
                             <ServiceCard
                                 imgSrc={trauma}
                                 imgAlt=""
