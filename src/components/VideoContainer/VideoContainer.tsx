@@ -1,6 +1,8 @@
 const VideoContainer = () => {
     return (
-        <div className="relative aspect-video h-full max-h-[95vh] w-full">
+        <div className="relative h-full w-full row-start-1 col-start-1 overflow-hidden"
+            style={{ marginBottom: '-3px' }}
+        >
             <video
                 src={"https://dlwra9x5wdukt.cloudfront.net/background.mp4"}
                 autoPlay
