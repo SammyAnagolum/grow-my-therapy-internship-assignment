@@ -101,7 +101,7 @@ const ContactForm = () => {
 
     return (
         <form
-            className="w-full max-w-lg min-w-fit bg-light bg-opacity-30 p-8 rounded-lg shadow flex flex-col gap-4 font-freight-sans-pro"
+            className="w-full max-w-full sm:max-w-lg p-6 sm:p-8 min-w-fit bg-light bg-opacity-30 rounded-lg shadow flex flex-col gap-4 font-freight-sans-pro"
             onSubmit={handleSubmit}
             noValidate
         >
