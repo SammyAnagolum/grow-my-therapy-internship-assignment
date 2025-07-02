@@ -25,6 +25,16 @@ const config: Config = {
                 light: "#fefefe",
                 black: "#000000",
             },
+            screens: {
+                // new breakpoint at 375px
+                exs: "337px",
+                xs: "416px",
+                xs2: "485px",
+                xsm: "576px",
+                mdlg: "896px",
+                mylg: "1025px",
+                "2k": "1920px",
+            },
         },
     },
     plugins: [],
