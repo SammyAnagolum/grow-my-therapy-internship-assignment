@@ -1,3 +1,4 @@
+import FadeInSection from "../FadeInSection/FadeInSection";
 import VideoContainer from "../VideoContainer/VideoContainer";
 
 const Hero = () => {
@@ -34,14 +35,16 @@ const Hero = () => {
                     </h2>
                 </div>
                 <div className="px-4 sm:px-8 md:px-16 text-md md:text-[16px]">
-                    <button
-                        className="mt-[clamp(0.75rem,2vw,1.5rem)] sm:mt-[clamp(1rem,3vw,3rem)] lg:mt-4 xl:mt-0 xl:mb-3 bg-primary hover:bg-[#8EAAAA] shadow-md tracking-widest rounded-full hover:bg-opacity-85 transition-colors duration-100 font-freight-sans-pro px-4"
-                        style={{ clipPath: "ellipse(50% 50% at 50% 50%)" }}
-                    >
-                        <p className="p-[2.7vw] lg:px-[1.6vw] text-center break-words max-w-[70vw] sm:max-w-none">
-                            SCHEDULE A CONSULTATION
-                        </p>
-                    </button>
+                    <FadeInSection>
+                        <button
+                            className="mt-[clamp(0.75rem,2vw,1.5rem)] sm:mt-[clamp(1rem,3vw,3rem)] lg:mt-4 xl:mt-0 xl:mb-3 bg-primary hover:bg-[#8EAAAA] shadow-md tracking-widest rounded-full hover:bg-opacity-85 transition-colors duration-100 font-freight-sans-pro px-4"
+                            style={{ clipPath: "ellipse(50% 50% at 50% 50%)" }}
+                        >
+                            <p className="p-[2.7vw] lg:px-[1.6vw] text-center break-words max-w-[70vw] sm:max-w-none">
+                                SCHEDULE A CONSULTATION
+                            </p>
+                        </button>
+                    </FadeInSection>
                 </div>
             </div>
         </section>
