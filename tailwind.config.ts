@@ -35,6 +35,16 @@ const config: Config = {
                 mylg: "1025px",
                 "2k": "1920px",
             },
+            keyframes: {
+                "fade-in": {
+                    "0%": { opacity: "0" },
+                    "100%": { opacity: "1" },
+                },
+            },
+            animation: {
+                // a simple fade-in over 500ms
+                "fade-in": "fade-in 500ms ease-out forwards",
+            },
         },
     },
     plugins: [],
