@@ -5,11 +5,18 @@ import ServiceCard from "../ServiceCard/ServiceCard";
 
 const Services = () => {
     return (
-        <section id="services" className="py-14 flex flex-col items-center text-center text-dark w-full px-4 sm:px-6 ">
-            <p className="font-freight-display-pro-light text-[clamp(0px,3.7vw,45px)] mb-20 mt-0.5">
+        <section id="services" className="
+            py-6 lg:py-7 xl:py-10 2xl:py-12 flex flex-col items-center text-center text-dark w-full px-4 xsm:px-[4vw] "
+        >
+            <p className="font-freight-display-pro-light text-[clamp(1.875rem,3.7vw,3rem)] mdlg:text-[clamp(1.875rem,4vw,2.8rem)] mb-[76px] xs:mb-20 xsm:mb-[72px] md:mb-[76px] mt-0.5">
                 Areas of Focus
             </p>
-            <ul className="flex flex-col md:flex-row flex-wrap items-start justify-center text-center gap-14">
+            <ul
+                className="flex flex-col gap-16 xs:gap-[74px]
+                xsm:grid xsm:grid-cols-2 xsm:grid-rows-2 xsm:gap-14 xsm:-mb-8
+                md:flex md:flex-row md:flex-wrap md:gap-16 md:mb-0 md:justify-between
+                items-start justify-center w-full text-center "
+            >
                 <li className="flex items-center">
                     <ServiceCard
                         imgSrc={therapy1}
