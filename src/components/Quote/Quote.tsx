@@ -24,11 +24,11 @@ const Quote = ({ text, author }: QuoteProps) => {
             {/* Overlay */}
             <div className="absolute inset-0 bg-light opacity-30" />
 
-            <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center pb-8">
-                <p className="text-black text-4xl font-freight-display-pro-light mb-8 text-center max-w-5xl leading-snug">
+            <div className="absolute inset-0 flex flex-col items-center justify-start md:justify-center py-20 xl:pt-16 2xl:pt-10 px-6 md:px-[18vw] text-center">
+                <p className="text-black text-2xl sm:text-[27px] mdlg:text-[29px] lg:text-[30px] xl:text-[35px] font-freight-display-pro-light mb-9 sm:mb-[34px] 2xl:mb-9 mt-2 md:mt-0 text-center max-w-5xl leading-snug">
                     “{text}”
                 </p>
-                <p className="text-dark text-xl font-freight-sans-pro-light">—{author}</p>
+                <p className="text-dark text-lg mdlg:text-[19px] lg:text-xl font-freight-sans-pro-light">—{author}</p>
             </div>
         </section>
     )
