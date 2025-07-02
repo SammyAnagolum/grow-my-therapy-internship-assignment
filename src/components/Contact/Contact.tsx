@@ -6,14 +6,17 @@ import ContactForm from "../ContactForm/ContactForm";
 const Contact = () => {
     return (
         <section
-            id="contact" className="py-14 flex flex-col items-center text-dark w-full">
-            <h2 className="font-freight-display-pro-light text-[clamp(0px,3.7vw,48px)] mb-2">
+            id="contact"
+            className="flex flex-col items-center text-dark w-full
+            pb-14 px-[6vw] md:px-[4vw]"
+        >
+            <h2 className="font-freight-display-pro-light text-[clamp(1.875rem,3.7vw,3rem)] mb-2">
                 Contact
             </h2>
-            <p className="font-freight-display-pro-light text-[clamp(0px,2.25vw,30px)] text-muted mb-10">
+            <p className="font-freight-display-pro-light text-center text-[clamp(1.5rem,2.2vw,2.2rem)] sm:text-[clamp(1.6rem,3vw,2.4rem)] text-muted max-w-xl ">
                 Take the first step toward your healing!
             </p>
-            <div className="flex flex-col md:flex-row w-full items-start justify-center gap-12">
+            <div className="flex flex-col items-center lg:flex-row lg:items-start w-full justify-center gap-8 md:gap-12 lg:pt-8">
                 <ContactDetails />
                 <ContactForm />
             </div>
