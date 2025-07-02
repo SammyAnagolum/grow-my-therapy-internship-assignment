@@ -1,5 +1,4 @@
 // app/privacy-policy/page.tsx
-import Link from 'next/link'
 import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 
