@@ -2,11 +2,13 @@ import FAQAccordion from "../FAQAccordion/FAQAccordion"
 
 const FAQ = () => {
     return (
-        <section id="faq" className="py-10 flex flex-col items-center">
-            <h2 className="font-freight-display-pro-light text-[clamp(0px,3.7vw,48px)] mb-6 leading-tight text-dark">
+        <section id="faq" className="py-10 flex flex-col items-center px-8">
+            <h2 className="font-freight-display-pro md:font-freight-display-pro-light text-2xl xs:text-[clamp(1.875rem,3.7vw,3rem)] mb-2 exs:mb-4 xs:mb-6 text-dark text-center leading-tight">
                 Frequently Asked Questions
             </h2>
-            <FAQAccordion />
+            <div className="">
+                <FAQAccordion />
+            </div>
         </section>
     )
 }
