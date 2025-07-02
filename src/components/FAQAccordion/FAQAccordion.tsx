@@ -38,7 +38,7 @@ const FAQAccordion = () => {
             {faqs.map((faq, idx) => (
                 <div key={idx} className="border-b border-primary">
                     <button
-                        className="w-full text-left py-4 font-semibold text-xl flex justify-between items-center transition-colors hover:text-primary focus:outline-none font-freight-sans-pro"
+                        className="w-full text-left py-3 xs:py-4 xs:text-lg md:text-xl flex justify-between items-center transition-colors hover:text-primary focus:outline-none font-freight-sans-pro"
                         onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
                         aria-expanded={openIndex === idx}
                         aria-controls={`faq-panel-${idx}`}
@@ -59,7 +59,7 @@ const FAQAccordion = () => {
                             }`}
                         aria-hidden={openIndex !== idx}
                     >
-                        <div className="pb-4 text-lg text-dark font-freight-sans-pro-light">{faq.answer}</div>
+                        <div className="pb-3 xs:pb-4 xs:text-lg text-dark font-freight-sans-pro-light">{faq.answer}</div>
                     </div>
                 </div>
             ))}
