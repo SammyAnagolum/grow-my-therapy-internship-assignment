@@ -1,6 +1,6 @@
-import therapy1 from "@/../public/therapy1.jpg"
-import therapy2 from "@/../public/therapy2.jpg"
-import therapy3 from "@/../public/therapy3.jpg"
+import anxiousPic from "@/../public/anxious.jpg"
+import relationship from "@/../public/relationship.jpg"
+import trauma from "@/../public/trauma.jpg"
 import ServiceCard from "../ServiceCard/ServiceCard";
 import FadeInSection from "../FadeInSection/FadeInSection";
 
@@ -23,8 +23,9 @@ const Services = () => {
                 >
                     <li className="flex items-center">
                         <FadeInSection>
+                            {/* Original source: https://www.freepik.com/free-photo/medium-shot-anxious-man-indoors_32407652.htm */}
                             <ServiceCard
-                                imgSrc={therapy1}
+                                imgSrc={anxiousPic}
                                 imgAlt=""
                                 headingText="Anxiety & Stress Management"
                                 paraText="The persistent pull of worry, tension, and overwhelm can make even small tasks feel insurmountable. In our work together, we&apos;ll explore the root causes of your anxiety—whether it&apos;s performance pressure, life transitions, or chronic stress—and develop evidence-based tools to restore calm. Through a blend of cognitive-behavioral strategies, mindfulness exercises, and paced breathing techniques, you&apos;ll learn to interrupt worry cycles, build resilience to daily pressures, and reclaim a sense of balance and ease in your life."
@@ -33,8 +34,9 @@ const Services = () => {
                     </li>
                     <li className="flex items-center">
                         <FadeInSection delay={200}>
+                            {/* Original source: https://www.freepik.com/free-photo/young-couple-psychologist-looking-each-other-with-hate_3938477.htm */}
                             <ServiceCard
-                                imgSrc={therapy2}
+                                imgSrc={relationship}
                                 imgAlt=""
                                 headingText="Relationship Counseling"
                                 paraText="Whether you&apos;re navigating conflict with a partner, strengthening family bonds, or improving communication with friends, relationships shape our wellness in profound ways. Using empathic listening and structured dialogue, we&apos;ll uncover patterns that contribute to misunderstandings and unmet needs. Together, we&apos;ll practice healthy boundaries, assertive communication, and emotional attunement so you and your loved ones can foster deeper trust, mutual respect, and genuine connection."
@@ -44,7 +46,7 @@ const Services = () => {
                     <li className="flex items-center">
                         <FadeInSection delay={400}>
                             <ServiceCard
-                                imgSrc={therapy3}
+                                imgSrc={trauma}
                                 imgAlt=""
                                 headingText="Trauma Recovery"
                                 paraText="Experiences such as accidents, loss, or prolonged stress can leave lasting emotional and physical footprints. In a safe, paced environment, we&apos;ll gently process difficult memories and sensations, using trauma-informed care and mindfulness to help you feel grounded in the present. Drawing on approaches like stabilization techniques and, when appropriate, cognitive-behavioral interventions, you&apos;ll gradually reclaim safety in your body and mind, integrate your experiences, and move toward post-traumatic growth."
