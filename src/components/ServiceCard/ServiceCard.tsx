@@ -11,17 +11,17 @@ type ServiceCardProps = {
 const ServiceCard = ({ imgSrc, imgAlt, headingText, paraText }: ServiceCardProps) => {
     return (
         <div className="flex flex-col items-center gap-4 p-4 sm:p-6 md:p-[1.68vw] w-full md:w-[24.7vw]">
-            <div className="relative h-[24.7vw] w-[24.7vw]">
+            <div className="relative h-[81vw] w-[81vw] xsm:h-[36vw] xsm:w-[36vw] md:h-[22.5vw] md:w-[22.5vw] mdlg:h-[23.4vw] mdlg:w-[23.4vw] xl:h-[24.7vw] xl:w-[24.7vw]">
                 <Image
                     src={imgSrc}
                     alt={imgAlt}
                     className="w-full h-full rounded-full object-cover object-center"
                 />
             </div>
-            <h2 className="font-freight-display-pro-light text-dark text-3xl mb-2">
+            <h2 className="font-freight-display-pro md:font-freight-display-pro-light text-dark text-xl md:text-[22px] lg:text-3xl xl:text-3xl mb-2 md:mb-0">
                 {headingText}
             </h2>
-            <p className="font-freight-sans-pro leading-loose">
+            <p className="font-freight-sans-pro-light leading-loose">
                 {paraText}
             </p>
         </div>
