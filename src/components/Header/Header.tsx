@@ -47,7 +47,7 @@ const Header = () => {
     return (
 
         <header ref={headerRef} id="header" className="flex w-full items-center justify-between py-[6vw] mylg:py-[3vw] px-4 sm:px-8 md:px-[4%] relative z-20">
-            <FadeInSection>
+            <FadeInSection className="w-full">
                 <div className="flex flex-row items-center justify-between w-full ml-1 sm:ml-2 md:ml-3 mylg:ml-0">
                     <Link href={"/"}>
                         <div className="block exs:hidden w-full max-w-[231px]">

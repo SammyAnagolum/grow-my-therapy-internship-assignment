@@ -20,7 +20,7 @@ const About = () => {
         pb-36 xs:pb-[43vw] md:pb-[12vw] lg:pb-[9vw] xl:pb-[5vw]
         px-[6vw] md:px-[4vw]
         font-freight-display-pro">
-            <FadeInSection >
+            <FadeInSection className="w-full">
                 <div className="
                 w-full 
                 text-muted 
@@ -41,7 +41,7 @@ const About = () => {
                         </h2>
                     </FadeInSection>
                     <div className="w-full h-auto md:h-fit md:row-span-2 mb-6 md:mb-0 md:py-11 lg:py-8 xl:py-0">
-                        <FadeInSection>
+                        <FadeInSection className="w-full">
                             <Image
                                 style={{
                                     // only apply the cap on md+ screens

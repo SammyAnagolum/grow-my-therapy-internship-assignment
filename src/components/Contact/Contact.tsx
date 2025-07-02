@@ -21,7 +21,7 @@ const Contact = () => {
                     Take the first step toward your healing!
                 </p>
             </FadeInSection >
-            <FadeInSection delay={300}>
+            <FadeInSection delay={300} className="w-full">
                 <div className="flex flex-col items-center lg:flex-row lg:items-start w-full justify-center gap-8 md:gap-12 lg:pt-8">
                     <ContactDetails />
                     <FadeInSection delay={400}>

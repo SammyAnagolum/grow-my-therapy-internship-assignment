@@ -14,7 +14,7 @@ const Services = () => {
                     Areas of Focus
                 </p>
             </FadeInSection >
-            <FadeInSection>
+            <FadeInSection className="w-full">
                 <ul
                     className="flex flex-col gap-16 xs:gap-[74px]
                 xsm:grid xsm:grid-cols-2 xsm:grid-rows-2 xsm:gap-14 xsm:-mb-8
