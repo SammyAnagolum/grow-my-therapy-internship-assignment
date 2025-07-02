@@ -36,7 +36,7 @@ const About = () => {
                 mb-4 md:mb-2 xl:mb-6 pr-16">
                     About Dr. Serena Blake
                 </h2>
-                <div className="w-full h-auto md:h-full  md:row-span-2 mb-6 md:mb-0 md:py-11 lg:py-8 xl:py-0">
+                <div className="w-full h-auto md:h-fit md:row-span-2 mb-6 md:mb-0 md:py-11 lg:py-8 xl:py-0">
                     <Image
                         style={{
                             // only apply the cap on md+ screens
@@ -45,10 +45,10 @@ const About = () => {
                         }}
                         src={serena}
                         alt={"Serena Blake"}
-                        className="w-full max-h-80 md:max-h-full md:h-auto object-contain"
+                        className="w-full max-h-80 md:h-fit object-contain"
                     />
                 </div>
-                <div ref={textRef} className="flex flex-col gap-4 leading-relaxed md:leading-loose text-lg font-freight-sans-pro-light md:font-freight-sans-pro-light min-h-screen items-start ">
+                <div ref={textRef} className="flex flex-col gap-4 leading-relaxed md:leading-loose text-lg font-freight-sans-pro-light md:font-freight-sans-pro-light min-h-screen md:min-h-fit items-start ">
                     <p className="">
                         In today&apos;s whirlwind of commitments, it&apos;s easy to let self-care slip to the bottom of the list. Therapy can be the steady anchor you need—a confidential space to slow down, reflect, and develop practices that sustain your mental and emotional health. Together, we&apos;ll pinpoint what matters most to you, draw on your inner resources, and tailor a plan that feels authentic and achievable.</p>
                     <p className="">
