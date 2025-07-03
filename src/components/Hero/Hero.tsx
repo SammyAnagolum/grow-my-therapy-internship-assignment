@@ -5,10 +5,10 @@ const Hero = () => {
     return (
         <section
             id="hero"
-            className="w-full min-h-screen grid grid-rows-[1fr] grid-cols-1 place-items-center pb-[4vw]"
+            className="w-full min-h-screen md:min-h-[88vh] grid grid-rows-[1fr] grid-cols-1 place-items-center pb-[4vw]"
         >
             {/* 1) Video at row 1 / col 1 */}
-            <div className="row-start-1 col-start-1 w-full h-full px-4 sm:px-6 md:px-[4vw]">
+            <div className="row-start-1 col-start-1 w-full h-full px-4 xs:px-[4vw]">
                 <VideoContainer />
             </div>
 
@@ -16,15 +16,15 @@ const Hero = () => {
             <div
                 className="
             row-start-1 col-start-1
-            flex flex-col items-center justify-between md:justify-center
+            flex flex-col items-center justify-start md:justify-center
             w-full 2k:container 2k:mx-auto
             py-12 md:py-12
             z-10 text-white font-freight-display-pro text-center
-            px-4 sm:px-8 md:px-[4vw] h-full
+            px-4 xs2:px-6 sm:px-8 md:px-[4vw] h-full
             gap-2
             ">
-                <div className="pt-20 xs2:pt-0 xs2:-mt-2 sm:mt-8 md:-mt-0 mdlg:-mt-4 lg:-mt-6 2xl:-mt-24"></div>
-                <div className="pt-2 xs:pt-0">
+                <div className="pt-20 xs2:pt-20 xs2:-mt-2 sm:mt-2 md:pt-0 md:-mt-0 mdlg:-mt-4 lg:-mt-6 2xl:-mt-24"></div>
+                <div className="pt-2 xs:pt-2 sm:pt-0">
                     {/* min-h-[339px] md:min-h-0 */}
                     <h1 className="flex flex-col items-center justify-start gap-[clamp(1.5rem,2vw,3rem)] sm:gap-[clamp(1.5rem,2vw,3rem)] xl:gap-[clamp(0rem,0.1vw,1.2rem)] text-[clamp(2.375rem,5vw,3.75rem)] sm:text-[clamp(2.5rem,4vw,4.5rem)] md:text-[43px] mdlg:text-[49px] lg:text-[53px] xl:text-[62px] 2xl:text-[69px]">
                         <strong className="px-4 sm:px-8 md:px-16">Your Strength, Our Support.</strong>
