@@ -99,6 +99,21 @@ const ContactForm = () => {
         }
     };
 
+
+    // 1. Define which fields you require
+    const requiredFields = ["name", "phone", "email", "message", "preferredTime", "agree"];
+
+    // 2. Check “allTouched” and “no errors”
+    const allTouched = requiredFields.every((field) => touched[field]);
+    const noErrors = Object.keys(errors).length === 0;
+    const isValid = allTouched && noErrors;
+
+    const missingFieldsMsg = "Please complete all required fields";
+    const errorsMsg = "Please fix the errors before submitting";
+    const tooltip = !allTouched
+        ? missingFieldsMsg
+        : (!noErrors ? errorsMsg : "");
+
     return (
         <form
             className="w-full max-w-full sm:max-w-lg p-6 sm:p-8 min-w-fit bg-light bg-opacity-30 rounded-lg shadow flex flex-col gap-4 font-freight-sans-pro"
@@ -236,7 +251,9 @@ const ContactForm = () => {
             </div>
             <button
                 type="submit"
-                className="bg-primary text-white rounded px-6 py-2 mt-2 hover:bg-opacity-80 transition"
+                title={!isValid ? tooltip : undefined}
+                disabled={!isValid}
+                className="bg-primary text-white rounded px-6 py-2 mt-2 hover:bg-opacity-80 transition disabled:bg-primary/50 disabled:cursor-not-allowed disabled:hover:bg-opacity-100"
             >
                 Submit
             </button>
