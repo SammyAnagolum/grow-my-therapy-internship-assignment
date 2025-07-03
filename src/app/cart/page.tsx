@@ -18,21 +18,21 @@ export default function CartPage() {
             >
                 <h2
                     aria-label="Shopping Cart"
-                    className="cart-title text-3xl font-semibold mb-8 font-freight-display-pro"
+                    className="cart-title text-lg xs:text-xl sm:text-2xl md:text-3xl font-semibold mb-8 font-freight-display-pro"
                 >
                     Shopping Cart
                 </h2>
 
                 <p
                     aria-label="You have nothing in your shopping cart."
-                    className="empty-message text-lg text-gray-600 mb-6"
+                    className="empty-message max-xs:text-sm sm:text-lg text-gray-600 mb-6"
                 >
                     You have nothing in your shopping cart.
                 </p>
 
                 <Link
                     href="/"
-                    className="inline-block px-6 py-3 border border-gray-400 rounded-md hover:bg-gray-100 transition"
+                    className="inline-block px-6 py-3 max-xs:text-sm border border-gray-400 rounded-md hover:bg-gray-100 transition"
                     aria-label="Continue Shopping"
                 >
                     Continue Shopping

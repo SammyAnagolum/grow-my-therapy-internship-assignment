@@ -12,9 +12,9 @@ export default function GoodFaithEstimatePage() {
             <Header />
 
             <main className="container mx-auto max-w-xl px-4 py-16 prose prose-lg font-freight-sans-pro space-y-4">
-                <h1 className="text-center text-xl sm:text-2xl md:text-3xl font-freight-display-pro mb-10">Good Faith Estimate</h1>
+                <h1 className="text-center text-lg xs:text-xl sm:text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl mb-2 xs:mb-4 sm:mb-6 md:mb-8 xl:mb-10 2xl:mb-12 font-freight-display-pro">Good Faith Estimate</h1>
 
-                <p className="text-center">
+                <p className="text-center max-sm:text-sm md:text-lg leading-relaxed md:leading-loose">
                     Effective January 1, 2022, a ruling went into effect called the “No
                     Surprises Act,” which requires mental health practitioners to provide
                     a “Good Faith Estimate” (GFE) about{' '}
@@ -26,7 +26,7 @@ export default function GoodFaithEstimatePage() {
                     .
                 </p>
 
-                <p className="text-center">
+                <p className="text-center max-sm:text-sm md:text-lg leading-relaxed md:leading-loose">
                     The Good Faith Estimate shows the cost of items and services that are
                     reasonably expected for your mental health care needs. The estimate is
                     based on information known at the time it was created and does not
@@ -34,7 +34,7 @@ export default function GoodFaithEstimatePage() {
                     treatment.
                 </p>
 
-                <p className="text-center">
+                <p className="text-center max-sm:text-sm md:text-lg leading-relaxed md:leading-loose">
                     You are entitled to receive this “Good Faith Estimate” of what the
                     charges could be for psychotherapy services provided to you. While it
                     is not possible to know in advance how many sessions you may need,
