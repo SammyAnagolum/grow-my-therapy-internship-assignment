@@ -7,13 +7,13 @@ import { useEffect, useRef, useState } from "react";
 import FadeInSection from "../FadeInSection/FadeInSection";
 
 const navLinks = [
-    { href: "#", label: "Home" },
-    { href: "#about", label: "About" },
-    { href: "#philosophy", label: "Philosophy" },
-    { href: "#services", label: "Services" },
-    { href: "#rates", label: "Rates" },
-    { href: "#faq", label: "FAQ" },
-    { href: "#contact", label: "Contact" },
+    { href: "/#", label: "Home" },
+    { href: "/#about", label: "About" },
+    { href: "/#philosophy", label: "Philosophy" },
+    { href: "/#services", label: "Services" },
+    { href: "/#rates", label: "Rates" },
+    { href: "/#faq", label: "FAQ" },
+    { href: "/#contact", label: "Contact" },
 ];
 
 const Header = () => {
