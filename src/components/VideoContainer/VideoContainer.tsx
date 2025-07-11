@@ -4,7 +4,7 @@ const VideoContainer = () => {
             style={{ marginBottom: '-3px' }}
         >
             <video
-                src={"https://dlwra9x5wdukt.cloudfront.net/background.mp4"}
+                src={"https://dlwra9x5wdukt.cloudfront.net/bg-video.mp4"}
                 autoPlay
                 loop
                 muted
@@ -12,7 +12,7 @@ const VideoContainer = () => {
                 className="w-full h-full object-cover object-center"
             />
             {/* Overlay */}
-            <div className="absolute inset-0 bg-dark bg-opacity-40 pointer-events-none" />
+            <div className="absolute inset-0 bg-black bg-opacity-40 pointer-events-none" />
         </div>
     );
 }
